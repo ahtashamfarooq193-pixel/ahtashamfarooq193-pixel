@@ -1,132 +1,150 @@
 <svg width="880" height="288" viewBox="0 0 880 288" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
 <defs>
     <linearGradient id="p-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0c0b0a"/>
-      <stop offset="55%" stop-color="#141210"/>
-      <stop offset="100%" stop-color="#1a1612"/>
+      <stop offset="0%" stop-color="#050914"/>
+      <stop offset="42%" stop-color="#0a1226"/>
+      <stop offset="100%" stop-color="#14081f"/>
     </linearGradient>
     <linearGradient id="p-shine" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f6ead7" stop-opacity="0.09"/>
-      <stop offset="40%" stop-color="#f6ead7" stop-opacity="0.02"/>
-      <stop offset="100%" stop-color="#f6ead7" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="28%" stop-color="#ffffff" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="p-stroke" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#d4af7a" stop-opacity="0.18"/>
-      <stop offset="50%" stop-color="#e8d5b0" stop-opacity="0.72"/>
-      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0.18"/>
+    <linearGradient id="p-stroke" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.7"/>
+      <stop offset="48%" stop-color="#a78bfa" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#f0abfc" stop-opacity="0.58"/>
     </linearGradient>
-    <linearGradient id="p-foil" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#b08d57"/>
-      <stop offset="50%" stop-color="#f0e1c2"/>
-      <stop offset="100%" stop-color="#c9a56a"/>
+    <linearGradient id="p-title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a5f3fc"/>
+      <stop offset="100%" stop-color="#d8b4fe"/>
     </linearGradient>
-    <radialGradient id="p-lamp" cx="22%" cy="0%" r="58%">
-      <stop offset="0%" stop-color="#d4af7a" stop-opacity="0.16"/>
-      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0"/>
+    <linearGradient id="p-edge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <radialGradient id="p-orb-cyan" cx="18%" cy="12%" r="52%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="p-lamp-r" cx="88%" cy="100%" r="50%">
-      <stop offset="0%" stop-color="#8a6a3b" stop-opacity="0.18"/>
-      <stop offset="100%" stop-color="#8a6a3b" stop-opacity="0"/>
+    <radialGradient id="p-orb-violet" cx="90%" cy="8%" r="48%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="p-orb-pink" cx="70%" cy="100%" r="46%">
+      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
     </radialGradient>
     <filter id="p-glow">
-      <feGaussianBlur stdDeviation="2.4" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <filter id="p-noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="11"/>
       <feColorMatrix type="saturate" values="0"/>
       <feComponentTransfer>
-        <feFuncA type="table" tableValues="0 0.04"/>
+        <feFuncA type="table" tableValues="0 0.055"/>
       </feComponentTransfer>
     </filter>
+    <pattern id="p-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    </pattern>
     <clipPath id="p-frame">
-      <rect x="10" y="10" width="860" height="268" rx="22"/>
+      <rect x="10" y="10" width="860" height="268" rx="30"/>
     </clipPath>
   </defs>
   <defs>
-    <clipPath id="pc1"><rect x="42" y="70" width="256" height="176" rx="16"/></clipPath>
-    <clipPath id="pc2"><rect x="312" y="70" width="256" height="176" rx="16"/></clipPath>
-    <clipPath id="pc3"><rect x="582" y="70" width="256" height="176" rx="16"/></clipPath>
+    <clipPath id="pc1"><rect x="42" y="70" width="256" height="176" rx="18"/></clipPath>
+    <clipPath id="pc2"><rect x="312" y="70" width="256" height="176" rx="18"/></clipPath>
+    <clipPath id="pc3"><rect x="582" y="70" width="256" height="176" rx="18"/></clipPath>
   </defs>
 
   <g clip-path="url(#p-frame)">
-    <rect x="10" y="10" width="860" height="268" rx="22" fill="url(#p-bg)"/>
-    <ellipse cx="180" cy="-10" rx="280" ry="140" fill="url(#p-lamp)"/>
-    <ellipse cx="760" cy="288" rx="240" ry="120" fill="url(#p-lamp-r)"/>
-    <rect x="10" y="10" width="860" height="268" rx="22" fill="url(#p-shine)"/>
-    <rect x="10" y="10" width="860" height="268" rx="22" filter="url(#p-noise)"/>
+    <rect x="10" y="10" width="860" height="268" rx="30" fill="url(#p-bg)"/>
+    <rect x="10" y="10" width="860" height="268" fill="url(#p-grid)"/>
+    <ellipse cx="150" cy="10" rx="250" ry="130" fill="url(#p-orb-cyan)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="8s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="780" cy="20" rx="220" ry="140" fill="url(#p-orb-violet)">
+      <animate attributeName="opacity" values="1;0.72;1" dur="9s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="640" cy="268" rx="260" ry="120" fill="url(#p-orb-pink)"/>
+    <rect x="10" y="10" width="860" height="268" rx="30" fill="url(#p-shine)"/>
+    <rect x="10" y="10" width="860" height="268" rx="30" filter="url(#p-noise)"/>
+    <rect x="10" y="10" width="5" height="268" fill="url(#p-edge)"/>
   </g>
-  <rect x="11" y="11" width="858" height="266" rx="21" fill="none" stroke="url(#p-stroke)" stroke-width="1.1"/>
+  <rect x="10.8" y="10.8" width="858.4" height="266.4" rx="29" fill="none" stroke="url(#p-stroke)" stroke-width="1.5"/>
 
-  <path d="M46 32 L50 36 L46 40 L42 36 Z" fill="#d4af7a"/>
-  <text x="58" y="40" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2.4">SELECTED WORK</text>
+  <rect x="42" y="32" width="8" height="8" rx="2" fill="#67e8f9"/>
+  <text x="56" y="40" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">SELECTED WORK</text>
 
-  <text x="42" y="60" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="26">Featured Projects</text>
+  <text x="42" y="58" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="740">Featured Projects</text>
 
   <a href="https://github.com/ahtashamfarooq193-pixel/Nyxra-Ai">
     <g clip-path="url(#pc1)">
-      <rect x="42" y="70" width="256" height="176" rx="16" fill="#0a0908" fill-opacity="0.55"/>
-      <rect x="42" y="70" width="256" height="1.4" fill="#d4af7a"/>
+      <rect x="42" y="70" width="256" height="176" rx="18" fill="#081018" fill-opacity="0.5"/>
+      <rect x="42" y="70" width="256" height="5" fill="#67e8f9"/>
     </g>
     <g>
-      <rect x="42" y="70" width="256" height="176" rx="16" fill="none" stroke="#d4af7a" stroke-opacity="0.2"/>
-      <text x="278" y="108" text-anchor="end" fill="#d4af7a" fill-opacity="0.28" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="20">01</text>
+      <rect x="42" y="70" width="256" height="176" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="278" y="106" text-anchor="end" fill="#ffffff" fill-opacity="0.08" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800">01</text>
       
-      <rect x="60" y="92" width="36" height="36" rx="10" fill="#d4af7a" fill-opacity="0.1" stroke="#d4af7a" stroke-opacity="0.35"/>
-      <circle cx="78" cy="110" r="6.5" fill="none" stroke="#d4af7a" stroke-width="1.5"/>
-      <circle cx="78" cy="110" r="2.1" fill="#d4af7a"/>
+      <rect x="60" y="92" width="38" height="38" rx="12" fill="#67e8f9" fill-opacity="0.16"/>
+      <circle cx="79" cy="111" r="7" fill="none" stroke="#67e8f9" stroke-width="1.8"/>
+      <circle cx="79" cy="111" r="2.4" fill="#67e8f9"/>
+      <path d="M79 98 L79 102 M79 120 L79 124 M66 111 L70 111 M88 111 L92 111" stroke="#67e8f9" stroke-width="1.6" stroke-linecap="round"/>
 
-      <text x="60" y="156" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="18">Nyxra AI</text>
-      <text x="60" y="178" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Multi-model AI assistant</text>
-      <text x="60" y="195" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Adaptive routing and chat</text>
-      <rect x="60" y="210" width="88" height="20" rx="10" fill="#d4af7a" fill-opacity="0.1" stroke="#d4af7a" stroke-opacity="0.28"/>
-      <text x="104" y="224" text-anchor="middle" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Flutter</text>
-      <text x="278" y="224" text-anchor="end" fill="#d4af7a" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Open →</text>
+      <text x="60" y="154" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="740">Nyxra AI</text>
+      <text x="60" y="176" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Multi-model AI assistant</text>
+      <text x="60" y="193" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Adaptive routing and chat</text>
+      <rect x="60" y="210" width="88" height="20" rx="10" fill="#67e8f9" fill-opacity="0.16"/>
+      <text x="104" y="224" text-anchor="middle" fill="#67e8f9" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">Flutter</text>
+      <text x="278" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650">Open →</text>
     </g>
   </a>
   <a href="https://github.com/ahtashamfarooq193-pixel/SwiftCart">
     <g clip-path="url(#pc2)">
-      <rect x="312" y="70" width="256" height="176" rx="16" fill="#0a0908" fill-opacity="0.55"/>
-      <rect x="312" y="70" width="256" height="1.4" fill="#d4af7a"/>
+      <rect x="312" y="70" width="256" height="176" rx="18" fill="#081018" fill-opacity="0.5"/>
+      <rect x="312" y="70" width="256" height="5" fill="#c4b5fd"/>
     </g>
     <g>
-      <rect x="312" y="70" width="256" height="176" rx="16" fill="none" stroke="#d4af7a" stroke-opacity="0.2"/>
-      <text x="548" y="108" text-anchor="end" fill="#d4af7a" fill-opacity="0.28" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="20">02</text>
+      <rect x="312" y="70" width="256" height="176" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="548" y="106" text-anchor="end" fill="#ffffff" fill-opacity="0.08" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800">02</text>
       
-      <rect x="330" y="92" width="36" height="36" rx="10" fill="#d4af7a" fill-opacity="0.1" stroke="#d4af7a" stroke-opacity="0.35"/>
-      <path d="M340 105 H356 L354.5 115 H342.5 Z" fill="none" stroke="#d4af7a" stroke-width="1.5" stroke-linejoin="round"/>
-      <circle cx="345" cy="118.5" r="1.5" fill="#d4af7a"/>
-      <circle cx="352" cy="118.5" r="1.5" fill="#d4af7a"/>
+      <rect x="330" y="92" width="38" height="38" rx="12" fill="#c4b5fd" fill-opacity="0.16"/>
+      <path d="M340 105 H358 L356 116 H343 Z" fill="none" stroke="#c4b5fd" stroke-width="1.7" stroke-linejoin="round"/>
+      <circle cx="346" cy="120" r="1.8" fill="#c4b5fd"/>
+      <circle cx="354" cy="120" r="1.8" fill="#c4b5fd"/>
 
-      <text x="330" y="156" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="18">SwiftCart</text>
-      <text x="330" y="178" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Flutter shopping store</text>
-      <text x="330" y="195" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Clean commerce interface</text>
-      <rect x="330" y="210" width="88" height="20" rx="10" fill="#d4af7a" fill-opacity="0.1" stroke="#d4af7a" stroke-opacity="0.28"/>
-      <text x="374" y="224" text-anchor="middle" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Dart</text>
-      <text x="548" y="224" text-anchor="end" fill="#d4af7a" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Open →</text>
+      <text x="330" y="154" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="740">SwiftCart</text>
+      <text x="330" y="176" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Flutter shopping store</text>
+      <text x="330" y="193" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Clean commerce interface</text>
+      <rect x="330" y="210" width="88" height="20" rx="10" fill="#c4b5fd" fill-opacity="0.16"/>
+      <text x="374" y="224" text-anchor="middle" fill="#c4b5fd" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">Dart</text>
+      <text x="548" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650">Open →</text>
     </g>
   </a>
   <a href="https://github.com/ahtashamfarooq193-pixel/leadreach-ai">
     <g clip-path="url(#pc3)">
-      <rect x="582" y="70" width="256" height="176" rx="16" fill="#0a0908" fill-opacity="0.55"/>
-      <rect x="582" y="70" width="256" height="1.4" fill="#d4af7a"/>
+      <rect x="582" y="70" width="256" height="176" rx="18" fill="#081018" fill-opacity="0.5"/>
+      <rect x="582" y="70" width="256" height="5" fill="#f0abfc"/>
     </g>
     <g>
-      <rect x="582" y="70" width="256" height="176" rx="16" fill="none" stroke="#d4af7a" stroke-opacity="0.2"/>
-      <text x="818" y="108" text-anchor="end" fill="#d4af7a" fill-opacity="0.28" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="20">03</text>
+      <rect x="582" y="70" width="256" height="176" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
+      <text x="818" y="106" text-anchor="end" fill="#ffffff" fill-opacity="0.08" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800">03</text>
       
-      <rect x="600" y="92" width="36" height="36" rx="10" fill="#d4af7a" fill-opacity="0.1" stroke="#d4af7a" stroke-opacity="0.35"/>
-      <path d="M618 102 L626 106.5 L618 111 L610 106.5 Z" fill="none" stroke="#d4af7a" stroke-width="1.45"/>
-      <path d="M618 111 L626 115.5 L618 120 L610 115.5 Z" fill="none" stroke="#d4af7a" stroke-width="1.45"/>
+      <rect x="600" y="92" width="38" height="38" rx="12" fill="#f0abfc" fill-opacity="0.16"/>
+      <path d="M619 102 L628 107 L619 112 L610 107 Z" fill="none" stroke="#f0abfc" stroke-width="1.7"/>
+      <path d="M619 112 L628 117 L619 122 L610 117 Z" fill="none" stroke="#f0abfc" stroke-width="1.7"/>
 
-      <text x="600" y="156" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="18">LeadReach AI</text>
-      <text x="600" y="178" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">AI outreach workspace</text>
-      <text x="600" y="195" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Built for growing teams</text>
-      <rect x="600" y="210" width="88" height="20" rx="10" fill="#d4af7a" fill-opacity="0.1" stroke="#d4af7a" stroke-opacity="0.28"/>
-      <text x="644" y="224" text-anchor="middle" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">JavaScript</text>
-      <text x="818" y="224" text-anchor="end" fill="#d4af7a" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">Open →</text>
+      <text x="600" y="154" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="740">LeadReach AI</text>
+      <text x="600" y="176" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">AI outreach workspace</text>
+      <text x="600" y="193" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Built for growing teams</text>
+      <rect x="600" y="210" width="88" height="20" rx="10" fill="#f0abfc" fill-opacity="0.16"/>
+      <text x="644" y="224" text-anchor="middle" fill="#f0abfc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">JavaScript</text>
+      <text x="818" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650">Open →</text>
     </g>
   </a></svg>
