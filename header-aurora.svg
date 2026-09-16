@@ -117,15 +117,15 @@
     <text x="30" y="21" fill="#d1fae5" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">Available for hire</text>
   </g>
 
-  <rect x="42" y="206" width="272" height="54" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
+  <rect x="42" y="206" width="256" height="54" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
   <text x="62" y="228" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="720">Web</text>
   <text x="62" y="246" fill="#93a4bb" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Sites, WordPress &amp; APIs</text>
 
-  <rect x="328" y="206" width="272" height="54" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
-  <text x="348" y="228" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="720">Flutter</text>
-  <text x="348" y="246" fill="#93a4bb" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Android, iOS &amp; UI</text>
+  <rect x="312" y="206" width="256" height="54" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="332" y="228" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="720">Flutter</text>
+  <text x="332" y="246" fill="#93a4bb" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Android, iOS &amp; UI</text>
 
-  <rect x="614" y="206" width="272" height="54" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
-  <text x="634" y="228" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="720">AI</text>
-  <text x="634" y="246" fill="#93a4bb" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Assistants &amp; automation</text>
+  <rect x="582" y="206" width="256" height="54" rx="16" fill="#ffffff" fill-opacity="0.045" stroke="#ffffff" stroke-opacity="0.08"/>
+  <text x="602" y="228" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="720">AI</text>
+  <text x="602" y="246" fill="#93a4bb" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Assistants &amp; automation</text>
 </svg>
