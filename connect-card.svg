@@ -1,115 +1,98 @@
 <svg width="880" height="172" viewBox="0 0 880 172" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
 <defs>
     <linearGradient id="c-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050914"/>
-      <stop offset="42%" stop-color="#0a1226"/>
-      <stop offset="100%" stop-color="#14081f"/>
+      <stop offset="0%" stop-color="#0c0b0a"/>
+      <stop offset="55%" stop-color="#141210"/>
+      <stop offset="100%" stop-color="#1a1612"/>
     </linearGradient>
     <linearGradient id="c-shine" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="28%" stop-color="#ffffff" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#f6ead7" stop-opacity="0.09"/>
+      <stop offset="40%" stop-color="#f6ead7" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#f6ead7" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="c-stroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.7"/>
-      <stop offset="48%" stop-color="#a78bfa" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#f0abfc" stop-opacity="0.58"/>
+    <linearGradient id="c-stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4af7a" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#e8d5b0" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0.18"/>
     </linearGradient>
-    <linearGradient id="c-title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a5f3fc"/>
-      <stop offset="100%" stop-color="#d8b4fe"/>
+    <linearGradient id="c-foil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b08d57"/>
+      <stop offset="50%" stop-color="#f0e1c2"/>
+      <stop offset="100%" stop-color="#c9a56a"/>
     </linearGradient>
-    <linearGradient id="c-edge" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#67e8f9"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
-    <radialGradient id="c-orb-cyan" cx="18%" cy="12%" r="52%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.42"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="c-lamp" cx="22%" cy="0%" r="58%">
+      <stop offset="0%" stop-color="#d4af7a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="c-orb-violet" cx="90%" cy="8%" r="48%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="c-orb-pink" cx="70%" cy="100%" r="46%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    <radialGradient id="c-lamp-r" cx="88%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#8a6a3b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8a6a3b" stop-opacity="0"/>
     </radialGradient>
     <filter id="c-glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2.4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <filter id="c-noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="11"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4"/>
       <feColorMatrix type="saturate" values="0"/>
       <feComponentTransfer>
-        <feFuncA type="table" tableValues="0 0.055"/>
+        <feFuncA type="table" tableValues="0 0.04"/>
       </feComponentTransfer>
     </filter>
-    <pattern id="c-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
-    </pattern>
     <clipPath id="c-frame">
-      <rect x="10" y="10" width="860" height="152" rx="30"/>
+      <rect x="10" y="10" width="860" height="152" rx="22"/>
     </clipPath>
   </defs>
   <defs>
-    <clipPath id="cc1"><rect x="42" y="74" width="256" height="58" rx="16"/></clipPath>
-    <clipPath id="cc2"><rect x="312" y="74" width="256" height="58" rx="16"/></clipPath>
-    <clipPath id="cc3"><rect x="582" y="74" width="256" height="58" rx="16"/></clipPath>
+    <clipPath id="cc1"><rect x="42" y="74" width="256" height="58" rx="14"/></clipPath>
+    <clipPath id="cc2"><rect x="312" y="74" width="256" height="58" rx="14"/></clipPath>
+    <clipPath id="cc3"><rect x="582" y="74" width="256" height="58" rx="14"/></clipPath>
   </defs>
 
   <g clip-path="url(#c-frame)">
-    <rect x="10" y="10" width="860" height="152" rx="30" fill="url(#c-bg)"/>
-    <rect x="10" y="10" width="860" height="152" fill="url(#c-grid)"/>
-    <ellipse cx="150" cy="10" rx="250" ry="130" fill="url(#c-orb-cyan)">
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="780" cy="20" rx="220" ry="140" fill="url(#c-orb-violet)">
-      <animate attributeName="opacity" values="1;0.72;1" dur="9s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="640" cy="152" rx="260" ry="120" fill="url(#c-orb-pink)"/>
-    <rect x="10" y="10" width="860" height="152" rx="30" fill="url(#c-shine)"/>
-    <rect x="10" y="10" width="860" height="152" rx="30" filter="url(#c-noise)"/>
-    <rect x="10" y="10" width="5" height="152" fill="url(#c-edge)"/>
+    <rect x="10" y="10" width="860" height="152" rx="22" fill="url(#c-bg)"/>
+    <ellipse cx="180" cy="-10" rx="280" ry="140" fill="url(#c-lamp)"/>
+    <ellipse cx="760" cy="172" rx="240" ry="120" fill="url(#c-lamp-r)"/>
+    <rect x="10" y="10" width="860" height="152" rx="22" fill="url(#c-shine)"/>
+    <rect x="10" y="10" width="860" height="152" rx="22" filter="url(#c-noise)"/>
   </g>
-  <rect x="10.8" y="10.8" width="858.4" height="150.4" rx="29" fill="none" stroke="url(#c-stroke)" stroke-width="1.5"/>
+  <rect x="11" y="11" width="858" height="150" rx="21" fill="none" stroke="url(#c-stroke)" stroke-width="1.1"/>
 
-  <rect x="42" y="30" width="8" height="8" rx="2" fill="#67e8f9"/>
-  <text x="56" y="38" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">CONNECT</text>
+  <path d="M46 30 L50 34 L46 38 L42 34 Z" fill="#d4af7a"/>
+  <text x="58" y="38" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2.4">CONNECT</text>
 
-  <text x="42" y="56" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="740">Let’s build something beautiful</text>
+  <text x="42" y="58" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="22">Let’s build something beautiful</text>
 
   <a href="https://ahtashamfarooq.netlify.app/">
     <g clip-path="url(#cc1)">
-      <rect x="42" y="74" width="256" height="58" rx="16" fill="#081018" fill-opacity="0.45"/>
-      <rect x="42" y="74" width="5" height="58" fill="#67e8f9"/>
+      <rect x="42" y="74" width="256" height="58" rx="14" fill="#0a0908" fill-opacity="0.5"/>
+      <rect x="42" y="74" width="2" height="58" fill="#d4af7a"/>
     </g>
-    <rect x="42" y="74" width="256" height="58" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-    <circle cx="66" cy="103" r="4.2" fill="#67e8f9"/>
-    <text x="82" y="98" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="730">Portfolio</text>
-    <text x="82" y="116" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">ahtashamfarooq.netlify.app</text>
+    <rect x="42" y="74" width="256" height="58" rx="14" fill="none" stroke="#d4af7a" stroke-opacity="0.22"/>
+    <circle cx="64" cy="103" r="3.2" fill="#d4af7a"/>
+    <text x="78" y="98" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="14">Portfolio</text>
+    <text x="78" y="116" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">ahtashamfarooq.netlify.app</text>
   </a>
   <a href="https://www.linkedin.com/in/ahtasham-webdev">
     <g clip-path="url(#cc2)">
-      <rect x="312" y="74" width="256" height="58" rx="16" fill="#081018" fill-opacity="0.45"/>
-      <rect x="312" y="74" width="5" height="58" fill="#c4b5fd"/>
+      <rect x="312" y="74" width="256" height="58" rx="14" fill="#0a0908" fill-opacity="0.5"/>
+      <rect x="312" y="74" width="2" height="58" fill="#d4af7a"/>
     </g>
-    <rect x="312" y="74" width="256" height="58" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-    <circle cx="336" cy="103" r="4.2" fill="#c4b5fd"/>
-    <text x="352" y="98" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="730">LinkedIn</text>
-    <text x="352" y="116" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">ahtasham-webdev</text>
+    <rect x="312" y="74" width="256" height="58" rx="14" fill="none" stroke="#d4af7a" stroke-opacity="0.22"/>
+    <circle cx="334" cy="103" r="3.2" fill="#d4af7a"/>
+    <text x="348" y="98" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="14">LinkedIn</text>
+    <text x="348" y="116" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">ahtasham-webdev</text>
   </a>
   <a href="mailto:ahtashamfarooq1045@gmail.com">
     <g clip-path="url(#cc3)">
-      <rect x="582" y="74" width="256" height="58" rx="16" fill="#081018" fill-opacity="0.45"/>
-      <rect x="582" y="74" width="5" height="58" fill="#f0abfc"/>
+      <rect x="582" y="74" width="256" height="58" rx="14" fill="#0a0908" fill-opacity="0.5"/>
+      <rect x="582" y="74" width="2" height="58" fill="#d4af7a"/>
     </g>
-    <rect x="582" y="74" width="256" height="58" rx="16" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-    <circle cx="606" cy="103" r="4.2" fill="#f0abfc"/>
-    <text x="622" y="98" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="730">Email</text>
-    <text x="622" y="116" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">ahtashamfarooq1045@gmail.com</text>
+    <rect x="582" y="74" width="256" height="58" rx="14" fill="none" stroke="#d4af7a" stroke-opacity="0.22"/>
+    <circle cx="604" cy="103" r="3.2" fill="#d4af7a"/>
+    <text x="618" y="98" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="14">Email</text>
+    <text x="618" y="116" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11">ahtashamfarooq1045@gmail.com</text>
   </a></svg>

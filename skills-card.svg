@@ -1,152 +1,135 @@
 <svg width="880" height="298" viewBox="0 0 880 298" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img">
 <defs>
     <linearGradient id="s-bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050914"/>
-      <stop offset="42%" stop-color="#0a1226"/>
-      <stop offset="100%" stop-color="#14081f"/>
+      <stop offset="0%" stop-color="#0c0b0a"/>
+      <stop offset="55%" stop-color="#141210"/>
+      <stop offset="100%" stop-color="#1a1612"/>
     </linearGradient>
     <linearGradient id="s-shine" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
-      <stop offset="28%" stop-color="#ffffff" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#f6ead7" stop-opacity="0.09"/>
+      <stop offset="40%" stop-color="#f6ead7" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#f6ead7" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="s-stroke" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0.7"/>
-      <stop offset="48%" stop-color="#a78bfa" stop-opacity="0.28"/>
-      <stop offset="100%" stop-color="#f0abfc" stop-opacity="0.58"/>
+    <linearGradient id="s-stroke" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d4af7a" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#e8d5b0" stop-opacity="0.72"/>
+      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0.18"/>
     </linearGradient>
-    <linearGradient id="s-title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#a5f3fc"/>
-      <stop offset="100%" stop-color="#d8b4fe"/>
+    <linearGradient id="s-foil" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#b08d57"/>
+      <stop offset="50%" stop-color="#f0e1c2"/>
+      <stop offset="100%" stop-color="#c9a56a"/>
     </linearGradient>
-    <linearGradient id="s-edge" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#67e8f9"/>
-      <stop offset="100%" stop-color="#c084fc"/>
-    </linearGradient>
-    <radialGradient id="s-orb-cyan" cx="18%" cy="12%" r="52%">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.42"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    <radialGradient id="s-lamp" cx="22%" cy="0%" r="58%">
+      <stop offset="0%" stop-color="#d4af7a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="s-orb-violet" cx="90%" cy="8%" r="48%">
-      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="s-orb-pink" cx="70%" cy="100%" r="46%">
-      <stop offset="0%" stop-color="#f472b6" stop-opacity="0.24"/>
-      <stop offset="100%" stop-color="#f472b6" stop-opacity="0"/>
+    <radialGradient id="s-lamp-r" cx="88%" cy="100%" r="50%">
+      <stop offset="0%" stop-color="#8a6a3b" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#8a6a3b" stop-opacity="0"/>
     </radialGradient>
     <filter id="s-glow">
-      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2.4" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
     <filter id="s-noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="2" seed="11"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="4"/>
       <feColorMatrix type="saturate" values="0"/>
       <feComponentTransfer>
-        <feFuncA type="table" tableValues="0 0.055"/>
+        <feFuncA type="table" tableValues="0 0.04"/>
       </feComponentTransfer>
     </filter>
-    <pattern id="s-grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
-    </pattern>
     <clipPath id="s-frame">
-      <rect x="10" y="10" width="860" height="278" rx="30"/>
+      <rect x="10" y="10" width="860" height="278" rx="22"/>
     </clipPath>
   </defs>
   <defs>
-    <clipPath id="sc1"><rect x="42" y="70" width="256" height="188" rx="18"/></clipPath>
-    <clipPath id="sc2"><rect x="312" y="70" width="256" height="188" rx="18"/></clipPath>
-    <clipPath id="sc3"><rect x="582" y="70" width="256" height="188" rx="18"/></clipPath>
+    <clipPath id="sc1"><rect x="42" y="70" width="256" height="188" rx="16"/></clipPath>
+    <clipPath id="sc2"><rect x="312" y="70" width="256" height="188" rx="16"/></clipPath>
+    <clipPath id="sc3"><rect x="582" y="70" width="256" height="188" rx="16"/></clipPath>
   </defs>
 
   <g clip-path="url(#s-frame)">
-    <rect x="10" y="10" width="860" height="278" rx="30" fill="url(#s-bg)"/>
-    <rect x="10" y="10" width="860" height="278" fill="url(#s-grid)"/>
-    <ellipse cx="150" cy="10" rx="250" ry="130" fill="url(#s-orb-cyan)">
-      <animate attributeName="opacity" values="0.8;1;0.8" dur="8s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="780" cy="20" rx="220" ry="140" fill="url(#s-orb-violet)">
-      <animate attributeName="opacity" values="1;0.72;1" dur="9s" repeatCount="indefinite"/>
-    </ellipse>
-    <ellipse cx="640" cy="278" rx="260" ry="120" fill="url(#s-orb-pink)"/>
-    <rect x="10" y="10" width="860" height="278" rx="30" fill="url(#s-shine)"/>
-    <rect x="10" y="10" width="860" height="278" rx="30" filter="url(#s-noise)"/>
-    <rect x="10" y="10" width="5" height="278" fill="url(#s-edge)"/>
+    <rect x="10" y="10" width="860" height="278" rx="22" fill="url(#s-bg)"/>
+    <ellipse cx="180" cy="-10" rx="280" ry="140" fill="url(#s-lamp)"/>
+    <ellipse cx="760" cy="298" rx="240" ry="120" fill="url(#s-lamp-r)"/>
+    <rect x="10" y="10" width="860" height="278" rx="22" fill="url(#s-shine)"/>
+    <rect x="10" y="10" width="860" height="278" rx="22" filter="url(#s-noise)"/>
   </g>
-  <rect x="10.8" y="10.8" width="858.4" height="276.4" rx="29" fill="none" stroke="url(#s-stroke)" stroke-width="1.5"/>
+  <rect x="11" y="11" width="858" height="276" rx="21" fill="none" stroke="url(#s-stroke)" stroke-width="1.1"/>
 
-  <rect x="42" y="32" width="8" height="8" rx="2" fill="#67e8f9"/>
-  <text x="56" y="40" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">TOOLKIT</text>
+  <path d="M46 32 L50 36 L46 40 L42 36 Z" fill="#d4af7a"/>
+  <text x="58" y="40" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2.4">TOOLKIT</text>
 
-  <text x="42" y="58" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="740">Skills &amp; Stack</text>
-  <text x="208" y="58" fill="#94a3b8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">the craft I use every day</text>
+  <text x="42" y="60" fill="#f4eee4" font-family="Georgia, Palatino Linotype, Palatino, Times New Roman, serif" font-size="26">Skills &amp; Stack</text>
+  <text x="228" y="58" fill="#b6aa98" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12.5">the craft I use every day</text>
 
   <g clip-path="url(#sc1)">
-    <rect x="42" y="70" width="256" height="188" rx="18" fill="#081018" fill-opacity="0.45"/>
-    <rect x="42" y="70" width="256" height="4" fill="#67e8f9"/>
+    <rect x="42" y="70" width="256" height="188" rx="16" fill="#0a0908" fill-opacity="0.55"/>
+    <rect x="42" y="70" width="256" height="1.4" fill="#d4af7a" fill-opacity="0.85"/>
   </g>
-  <rect x="42" y="70" width="256" height="188" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-  <text x="60" y="100" fill="#c4d4ea" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="720" letter-spacing="1.4">LANGUAGES</text>
+  <rect x="42" y="70" width="256" height="188" rx="16" fill="none" stroke="#d4af7a" stroke-opacity="0.2"/>
+  <text x="60" y="100" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2">LANGUAGES</text>
 
-      <circle cx="66" cy="122" r="3.3" fill="#22d3ee"/>
-      <text x="78" y="126" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Dart</text>
+      <circle cx="66" cy="124" r="2.6" fill="#d4af7a"/>
+      <text x="78" y="128" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Dart</text>
 
-      <circle cx="66" cy="148" r="3.3" fill="#f7df1e"/>
-      <text x="78" y="152" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">JavaScript</text>
+      <circle cx="66" cy="150" r="2.6" fill="#d4af7a"/>
+      <text x="78" y="154" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">JavaScript</text>
 
-      <circle cx="66" cy="174" r="3.3" fill="#60a5fa"/>
-      <text x="78" y="178" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">TypeScript</text>
+      <circle cx="66" cy="176" r="2.6" fill="#d4af7a"/>
+      <text x="78" y="180" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">TypeScript</text>
 
-      <circle cx="66" cy="200" r="3.3" fill="#38bdf8"/>
-      <text x="78" y="204" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Python</text>
+      <circle cx="66" cy="202" r="2.6" fill="#d4af7a"/>
+      <text x="78" y="206" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Python</text>
 
-      <circle cx="66" cy="226" r="3.3" fill="#c084fc"/>
-      <text x="78" y="230" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">PHP</text>
+      <circle cx="66" cy="228" r="2.6" fill="#d4af7a"/>
+      <text x="78" y="232" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">PHP</text>
 
-      <circle cx="66" cy="252" r="3.3" fill="#fb7185"/>
-      <text x="78" y="256" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">C++</text>
+      <circle cx="66" cy="254" r="2.6" fill="#d4af7a"/>
+      <text x="78" y="258" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">C++</text>
 
   <g clip-path="url(#sc2)">
-    <rect x="312" y="70" width="256" height="188" rx="18" fill="#081018" fill-opacity="0.45"/>
-    <rect x="312" y="70" width="256" height="4" fill="#c4b5fd"/>
+    <rect x="312" y="70" width="256" height="188" rx="16" fill="#0a0908" fill-opacity="0.55"/>
+    <rect x="312" y="70" width="256" height="1.4" fill="#d4af7a" fill-opacity="0.85"/>
   </g>
-  <rect x="312" y="70" width="256" height="188" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-  <text x="330" y="100" fill="#c4d4ea" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="720" letter-spacing="1.4">FRAMEWORKS</text>
+  <rect x="312" y="70" width="256" height="188" rx="16" fill="none" stroke="#d4af7a" stroke-opacity="0.2"/>
+  <text x="330" y="100" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2">FRAMEWORKS</text>
 
-      <circle cx="336" cy="122" r="3.3" fill="#38bdf8"/>
-      <text x="348" y="126" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Flutter</text>
+      <circle cx="336" cy="124" r="2.6" fill="#d4af7a"/>
+      <text x="348" y="128" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Flutter</text>
 
-      <circle cx="336" cy="148" r="3.3" fill="#67e8f9"/>
-      <text x="348" y="152" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">React</text>
+      <circle cx="336" cy="150" r="2.6" fill="#d4af7a"/>
+      <text x="348" y="154" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">React</text>
 
-      <circle cx="336" cy="174" r="3.3" fill="#86efac"/>
-      <text x="348" y="178" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Node.js</text>
+      <circle cx="336" cy="176" r="2.6" fill="#d4af7a"/>
+      <text x="348" y="180" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Node.js</text>
 
-      <circle cx="336" cy="200" r="3.3" fill="#a5b4fc"/>
-      <text x="348" y="204" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">WordPress</text>
+      <circle cx="336" cy="202" r="2.6" fill="#d4af7a"/>
+      <text x="348" y="206" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">WordPress</text>
 
   <g clip-path="url(#sc3)">
-    <rect x="582" y="70" width="256" height="188" rx="18" fill="#081018" fill-opacity="0.45"/>
-    <rect x="582" y="70" width="256" height="4" fill="#f0abfc"/>
+    <rect x="582" y="70" width="256" height="188" rx="16" fill="#0a0908" fill-opacity="0.55"/>
+    <rect x="582" y="70" width="256" height="1.4" fill="#d4af7a" fill-opacity="0.85"/>
   </g>
-  <rect x="582" y="70" width="256" height="188" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.10"/>
-  <text x="600" y="100" fill="#c4d4ea" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="720" letter-spacing="1.4">PLATFORMS</text>
+  <rect x="582" y="70" width="256" height="188" rx="16" fill="none" stroke="#d4af7a" stroke-opacity="0.2"/>
+  <text x="600" y="100" fill="#e6d3b0" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="650" letter-spacing="2">PLATFORMS</text>
 
-      <circle cx="606" cy="122" r="3.3" fill="#fbbf24"/>
-      <text x="618" y="126" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Firebase</text>
+      <circle cx="606" cy="124" r="2.6" fill="#d4af7a"/>
+      <text x="618" y="128" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Firebase</text>
 
-      <circle cx="606" cy="148" r="3.3" fill="#34d399"/>
-      <text x="618" y="152" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">MongoDB</text>
+      <circle cx="606" cy="150" r="2.6" fill="#d4af7a"/>
+      <text x="618" y="154" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">MongoDB</text>
 
-      <circle cx="606" cy="174" r="3.3" fill="#60a5fa"/>
-      <text x="618" y="178" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">MySQL</text>
+      <circle cx="606" cy="176" r="2.6" fill="#d4af7a"/>
+      <text x="618" y="180" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">MySQL</text>
 
-      <circle cx="606" cy="200" r="3.3" fill="#f97316"/>
-      <text x="618" y="204" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Git</text>
+      <circle cx="606" cy="202" r="2.6" fill="#d4af7a"/>
+      <text x="618" y="206" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Git</text>
 
-      <circle cx="606" cy="226" r="3.3" fill="#e879f9"/>
-      <text x="618" y="230" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">REST APIs</text>
+      <circle cx="606" cy="228" r="2.6" fill="#d4af7a"/>
+      <text x="618" y="232" fill="#f4eee4" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">REST APIs</text>
 </svg>
