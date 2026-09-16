@@ -94,8 +94,8 @@
     <text x="84" y="17.5" text-anchor="middle" fill="#c9d6e8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Bahawalpur, Pakistan</text>
   </g>
   <g transform="translate(348, 168)">
-    <rect width="188" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
-    <text x="94" y="17.5" text-anchor="middle" fill="#c9d6e8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">COMSATS University</text>
+    <rect width="252" height="26" rx="13" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="126" y="17.5" text-anchor="middle" fill="#c9d6e8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11.5">Islamia University of Bahawalpur</text>
   </g>
 
   <g transform="translate(698, 36)">
