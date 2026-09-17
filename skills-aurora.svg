@@ -205,13 +205,4 @@
         <animate attributeName="opacity" values="1;0.4;1" dur="2.1s" begin="0.86s" repeatCount="indefinite"/>
       </circle>
       <text x="618" y="230" fill="#e8eef8" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="13">REST APIs</text>
-
-  <g filter="url(#s-glow)">
-    <circle r="7" fill="#67e8f9" fill-opacity="0.22">
-      <animateMotion dur="12s" repeatCount="indefinite" path="M 70,160 C 280,110 520,210 820,150"/>
-    </circle>
-    <circle r="3.2" fill="#e879f9">
-      <animateMotion dur="12s" repeatCount="indefinite" path="M 70,160 C 280,110 520,210 820,150"/>
-    </circle>
-  </g>
 </svg>
