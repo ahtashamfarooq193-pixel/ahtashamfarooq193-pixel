@@ -78,7 +78,9 @@
   </g>
   <rect x="10.8" y="10.8" width="858.4" height="266.4" rx="29" fill="none" stroke="url(#p-stroke)" stroke-width="1.5"/>
 
-  <rect x="42" y="32" width="8" height="8" rx="2" fill="#67e8f9"/>
+  <rect x="42" y="32" width="8" height="8" rx="2" fill="#67e8f9">
+    <animate attributeName="fill-opacity" values="1;0.35;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
   <text x="56" y="40" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.6">SELECTED WORK</text>
 
   <text x="42" y="58" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="740">Featured Projects</text>
@@ -87,6 +89,9 @@
     <g clip-path="url(#pc1)">
       <rect x="42" y="70" width="256" height="176" rx="18" fill="#081018" fill-opacity="0.5"/>
       <rect x="42" y="70" width="256" height="5" fill="#67e8f9"/>
+      <rect x="42" y="70" width="56" height="5" fill="#ffffff" fill-opacity="0.55">
+        <animate attributeName="x" values="42;242;42" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <rect x="42" y="70" width="256" height="176" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
@@ -94,7 +99,9 @@
       
       <rect x="60" y="92" width="38" height="38" rx="12" fill="#67e8f9" fill-opacity="0.16"/>
       <circle cx="79" cy="111" r="7" fill="none" stroke="#67e8f9" stroke-width="1.8"/>
-      <circle cx="79" cy="111" r="2.4" fill="#67e8f9"/>
+      <circle cx="79" cy="111" r="2.4" fill="#67e8f9">
+        <animate attributeName="r" values="2.4;4.2;2.4" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
       <path d="M79 98 L79 102 M79 120 L79 124 M66 111 L70 111 M88 111 L92 111" stroke="#67e8f9" stroke-width="1.6" stroke-linecap="round"/>
 
       <text x="60" y="154" fill="#f8fafc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="740">Nyxra AI</text>
@@ -102,13 +109,18 @@
       <text x="60" y="193" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Adaptive routing and chat</text>
       <rect x="60" y="210" width="88" height="20" rx="10" fill="#67e8f9" fill-opacity="0.16"/>
       <text x="104" y="224" text-anchor="middle" fill="#67e8f9" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">Flutter</text>
-      <text x="278" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650">Open →</text>
+      <text x="278" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650" fill-opacity="1">Open →
+        <animate attributeName="fill-opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      </text>
     </g>
   </a>
   <a href="https://github.com/ahtashamfarooq193-pixel/SwiftCart">
     <g clip-path="url(#pc2)">
       <rect x="312" y="70" width="256" height="176" rx="18" fill="#081018" fill-opacity="0.5"/>
       <rect x="312" y="70" width="256" height="5" fill="#c4b5fd"/>
+      <rect x="312" y="70" width="56" height="5" fill="#ffffff" fill-opacity="0.55">
+        <animate attributeName="x" values="312;512;312" dur="2.9s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <rect x="312" y="70" width="256" height="176" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
@@ -124,13 +136,18 @@
       <text x="330" y="193" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Clean commerce interface</text>
       <rect x="330" y="210" width="88" height="20" rx="10" fill="#c4b5fd" fill-opacity="0.16"/>
       <text x="374" y="224" text-anchor="middle" fill="#c4b5fd" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">Dart</text>
-      <text x="548" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650">Open →</text>
+      <text x="548" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650" fill-opacity="1">Open →
+        <animate attributeName="fill-opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      </text>
     </g>
   </a>
   <a href="https://github.com/ahtashamfarooq193-pixel/leadreach-ai">
     <g clip-path="url(#pc3)">
       <rect x="582" y="70" width="256" height="176" rx="18" fill="#081018" fill-opacity="0.5"/>
       <rect x="582" y="70" width="256" height="5" fill="#f0abfc"/>
+      <rect x="582" y="70" width="56" height="5" fill="#ffffff" fill-opacity="0.55">
+        <animate attributeName="x" values="582;782;582" dur="3.2s" repeatCount="indefinite"/>
+      </rect>
     </g>
     <g>
       <rect x="582" y="70" width="256" height="176" rx="18" fill="none" stroke="#ffffff" stroke-opacity="0.11"/>
@@ -145,6 +162,17 @@
       <text x="600" y="193" fill="#9fb0c7" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Built for growing teams</text>
       <rect x="600" y="210" width="88" height="20" rx="10" fill="#f0abfc" fill-opacity="0.16"/>
       <text x="644" y="224" text-anchor="middle" fill="#f0abfc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="700">JavaScript</text>
-      <text x="818" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650">Open →</text>
+      <text x="818" y="224" text-anchor="end" fill="#7dd3fc" font-family="ui-sans-serif, system-ui, Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="650" fill-opacity="1">Open →
+        <animate attributeName="fill-opacity" values="1;0.35;1" dur="1.8s" repeatCount="indefinite"/>
+      </text>
     </g>
-  </a></svg>
+  </a>
+  <g filter="url(#p-glow)">
+    <circle r="7" fill="#67e8f9" fill-opacity="0.22">
+      <animateMotion dur="10.5s" repeatCount="indefinite" path="M 80,140 C 300,100 540,190 800,130"/>
+    </circle>
+    <circle r="3.2" fill="#e879f9">
+      <animateMotion dur="10.5s" repeatCount="indefinite" path="M 80,140 C 300,100 540,190 800,130"/>
+    </circle>
+  </g>
+</svg>
